@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>select||course</title>
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+  </head>
+  <body>
+   
+    <h1 class="title">انتخاب واحد دانشگاه علامه طباطبایی</h1>
+    
+    <div class="course">
+   
+      <table class="column" id="offeredCourses">
+        <thead >
+          <tr>
+            <th>دروس ارائه شده</th>
+          </tr>
+        </thead>
+        <tbody class="row">
+          <tr>
+            <td class="name">
+            درس ارائه شده یک
+            <span class="vahed"> (2واحد)</span>
+            <span class="time"> شنبه ساعت 8 تا10</span>
+           
+            
+            </td>
+              <td><button class="btn" data-id="1" data-start-time="8:00" data-end-time="10:00" data-day="شنبه">انتخاب</button></td>
+          </tr>
+          <tr>
+            <td class="name">
+            درس ارائه شده دو
+            <span class="vahed"> (2واحد)</span>
+            <span class="time"> یکشنبه ساعت 8 تا10</span>
+            
+            
+        </td>
+        <td><button class="btn" data-id="2" data-start-time="8:00" data-end-time="10:00" data-day="یکشنبه" >انتخاب</button></td>
+        <!-- <td><button class="btn">انتخاب</button></td> -->
+          </tr>
+          <tr>
+            <td class="name">
+            
+                درس ارائه شده سه
+                <span class="vahed"> (3واحد)</span>
+                <span class="time"> شنبه ساعت 8 تا10</span>
+            
+           
+        </td>
+        <td><button class="btn" data-id="3" data-start-time="8:00" data-end-time="10:00" data-day="شنبه" >انتخاب</button></td>
+          </tr>
+          <tr>
+            <td class="name">
+            درس ارائه شده چهار
+            <span class="vahed"> (3واحد)</span>
+            <span class="time"> شنبه ساعت 13 تا15</span>
+            
+            
+        </td>
+        <td><button class="btn" data-id="4" data-start-time="13:00" data-end-time="15:00" data-day="شنبه" >انتخاب</button></td>
+          </tr>
+          <tr>
+            <td class="name">
+            درس ارائه شده پنج
+            <span class="vahed"> (1واحد)</span>
+            <span class="time"> دوشنبه ساعت 8 تا10</span>
+            
+            
+        </td>
+        <td><button class="btn" data-id="5" data-start-time="8:00" data-end-time="10:00" data-day="دوشنبه" >انتخاب</button></td>
+          </tr>
+        </tr>
+        <tr>
+          <td class="name">
+          درس ارائه شده شش
+          <span class="vahed"> (1واحد)</span>
+          <span class="time"> سه شنبه ساعت 8 تا10</span>
+          
+          
+      </td>
+      <td><button class="btn" data-id="6" data-start-time="8:00" data-end-time="10:00" data-day="سه شنبه" >انتخاب</button></td>
+        </tr>
+    </tr>
+    <tr>
+      <td class="name">
+      درس ارائه شده هفت
+      <span class="vahed"> (3واحد)</span>
+      <span class="time"> دوشنبه ساعت 12 تا14</span>
+     
+      
+  </td>
+  <td><button class="btn" data-id="7" data-start-time="12:00" data-end-time="14:00" data-day="دوشنبه" >انتخاب</button></td>
+    </tr>
+        </tbody>
+      </table>
+    
+    </div>
+    <div class="course">
+        <table class="column" id="selectedCourses" >
+      
+            <tr><th>دروس انتخاب شده </th></tr>
+        
+        
+    </table></div>
+    <!-- <div class="error" id="error"></div> -->
+    <script src="script.js"></script>
+  </body>
+</html>

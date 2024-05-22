@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'vazir', sans-serif;
+    font-size: 1rem;
+    text-align: right;
+    background-color: rgb(177, 253, 158);
+    color: rgb(116, 146, 8);
+    /* clear: both; */
+}
+/*
+============================ 
+font
+============================ 
+ */
+ @font-face{
+    font-family: "vazir";
+    src: url("./font/Vazir.ttf") format("ttf");
+    src: url("./font/Vazir.woff") format("woff");
+    src: url("./font/Vazir.woff2") format("woff2");
+ }
+ td{
+    padding: 0.75rem;
+    /* margin: 5rem; */
+color: #011309;
+border: 1px solid #009b3c;
+ }
+ 
+ table{
+    display: inline-block;
+    direction: rtl;
+    text-align: center;
+   
+    float:right ;
+    /* float: inline-end; */
+    margin: 2rem;
+    
+ }
+ h1{
+    font-size: 1.75rem;
+    margin: 1rem;
+    text-align: center;
+ }
+
+ .btn{
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    transition: all 1s linear;
+  margin-top: 1.5rem;
+  display: inline-block;
+  background-color: #11e76a;
+  color:rgb(5, 61, 14);
+ }
+ .btn:hover {
+    background: rgb(5, 61, 14);
+    color: #11e76a;
+    outline-color:rgb(5, 61, 14);
+  }
